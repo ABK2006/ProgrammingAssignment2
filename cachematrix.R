@@ -1,5 +1,4 @@
-#### an overall description for makeCacheMatrix
-
+#### An overall description for makeCacheMatrix:
 makeCacheMatrix <- function(x=matrix()){
   inv<- NULL   ## this will store the cached inverse.
   set <- function(y){
